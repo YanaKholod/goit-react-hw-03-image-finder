@@ -16,7 +16,10 @@ export const Styled = {
     z-index: 1200;
   `,
   ModalSize: styled.div`
-    max-width: 50vw;
-    max-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    max-height: 300px;
   `,
 };

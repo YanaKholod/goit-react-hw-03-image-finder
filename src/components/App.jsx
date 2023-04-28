@@ -4,8 +4,8 @@ import Gallery from './Galllery/Gallery';
 import { SearchBar } from './SearchBar/SearchBar';
 import Loader from './Loader/Loader';
 import { Modal } from './Modal/Modal';
-import { getSearch } from './pixabay';
 import { Toaster } from 'react-hot-toast';
+import { getSearch } from 'pixabay';
 
 export class App extends Component {
   state = {

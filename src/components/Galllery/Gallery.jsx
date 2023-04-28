@@ -15,7 +15,7 @@ const Gallery = ({ images, toggleModal }) => {
 
 Gallery.propTypes = {
   images: PropTypes.arrayOf(PropTypes.object).isRequired,
-  togleModal: PropTypes.func.isRequired,
+  toggleModal: PropTypes.func.isRequired,
 };
 
 export default Gallery;

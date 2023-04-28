@@ -28,7 +28,7 @@ export class Modal extends Component {
   render() {
     return createPortal(
       <Styled.Wrapper onClick={this.handleClose}>
-        <Styled.ModalSize>{this.props.children}</Styled.ModalSize>
+        <Styled.ModalSize>{this.props.children}</Styled.ModalSize>{' '}
       </Styled.Wrapper>,
       modalRoot
     );
